@@ -7,6 +7,6 @@ https://www.selenium.dev/selenium/docs/api/java/
 
 Initial setup:
 1. NB Set build path in project to extracted JAR files.
-2. Get Google Chrome driver.
+2. Get Google Chrome driver, check versioning.
 
 
