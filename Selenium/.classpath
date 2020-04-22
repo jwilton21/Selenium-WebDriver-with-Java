@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="JasminGitHubRepo">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/ChromeWebDriver/chromedriver_win32/chromedriver_win32.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jasmi/OneDrive/General Documents and Scans/GitHub/JasminGitHubRepo/seleniumPackage/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
