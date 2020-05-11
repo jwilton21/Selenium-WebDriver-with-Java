@@ -14,7 +14,7 @@ public class startBrowserTest {
 	@BeforeClass
 	public static void setUp() 
 	{	// Implement methods of WebDriver.
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\jasmi\\AppData\\Local\\Temp\\Temp1_chromedriver_win32.zip\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\jasmi\\ChromeDriver\\chromedriver.exe");
 		// Instantiate WebDriver object.
 		driver = new ChromeDriver();
 	}
