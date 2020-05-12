@@ -56,21 +56,25 @@ public class startBrowserTest {
 	// Test site title, actual v expected, using assert.
 	public void testSiteTitle()
 	{	driver.getTitle();
+	// Store actual title in variable using .get().
 	String actualSiteTitle = driver.getTitle();
+	// Assign what we expect here to compare.
 	String expectedSiteTitle = "Booking.com: Hotels in Tokyo. Book your hotel now!";
+	// Do check with expected and actual.
 	assertEquals(expectedSiteTitle, actualSiteTitle);
 
+	// If the website title retrieved by driver.get contains this string then print pass to console and expected title.
 	if(driver.getTitle().contains("Booking.com: Hotels in Tokyo. Book your hotel now!"))
 		// Pass
 		System.out.println("Test passed" + expectedSiteTitle);
 	else
-		// Fail... code should not reach here if there is a title match...
+		// Else print test failed, but code should not reach here if the title matches.
 		System.out.println("Test failed:Page title does not match.\n Actual site title:"+actualSiteTitle +"is");
 
 	}	
 
 
-	// Once code finished, change toAfterClass.
+	// Once code test cases finished, change toAfterClass to tidy after executing.
 	@Ignore
 	//Disable this code for now.
 	public static void shutDownWebDriver() 
